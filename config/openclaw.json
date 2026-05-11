@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-2.0-flash"
+      },
+      "workspace": "/home/node/.openclaw/workspace/thesis-venture",
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "list": [
+      {
+        "id": "nick",
+        "name": "Nick"
+      }
+    ]
+  }
+}
