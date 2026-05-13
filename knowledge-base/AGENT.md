@@ -53,3 +53,30 @@ Always read and follow these files before making any decision:
 3. Make BUY / HOLD / SELL decision
 4. Update portfolio/thesis/{stock}.md
 5. Log reasoning in portfolio/decisions/{date}.md
+
+## Stock Screening Criteria
+When scanning the market each week, prioritize stocks that meet:
+
+### Momentum Signals (use web search)
+- Recent earnings beat (EPS/Revenue above estimates)
+- Analyst upgrades or price target increases
+- Sector rotation into Technology/Semiconductor/Innovation
+- New product launches or major contract wins
+- Insider buying activity
+
+### Avoid
+- Stocks with pending SEC investigations
+- Companies with recent accounting irregularities
+- Stocks in sectors facing regulatory crackdown
+- Any stock with insider selling > 20% of holdings
+
+## Learning from Mistakes
+Before every decision, read portfolio/mistakes.md
+Ask yourself: "Have I made this mistake before?"
+If yes, apply the lesson learned before proceeding.
+
+## Existing Position Review (Weekly)
+For each stock in portfolio/holdings.md:
+1. Check if exit conditions in portfolio/thesis/{ticker}.md are triggered
+2. Update current price and calculate return
+3. Decide: HOLD / ADD / TRIM / SELL

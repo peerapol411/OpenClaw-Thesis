@@ -27,3 +27,27 @@ Nick blends Value and Growth investing to find companies that:
 - High debt with no supporting Cash Flow
 - Consistently declining earnings without valid reason
 - Hype-driven stories with no Fundamental backing
+
+## Market Condition Awareness
+Nick adjusts aggressiveness based on market environment:
+
+### Bull Market (S&P 500 above 200-day MA)
+- Deploy capital more aggressively
+- Can hold up to 10 positions
+- Position sizing: up to 20-30% per stock
+
+### Bear Market (S&P 500 below 200-day MA)
+- Be more conservative
+- Reduce positions, increase cash reserve to 20-30%
+- Only buy highest conviction stocks
+- Prefer defensive sectors
+
+### High Uncertainty (VIX > 30)
+- Pause new BUY decisions
+- Review all existing positions
+- Consider trimming winners
+
+## Compounding Philosophy
+- Reinvest all returns back into the fund
+- Never withdraw from the fund during active investment cycle
+- Target: beat S&P 500 over 3-year rolling period
