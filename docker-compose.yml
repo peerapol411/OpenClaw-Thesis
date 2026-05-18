@@ -13,14 +13,17 @@ services:
       - ./knowledge-base/ben:/home/node/.openclaw/workspace/ben/knowledge-base
       - ./knowledge-base/sarah:/home/node/.openclaw/workspace/sarah/knowledge-base
       - ./knowledge-base/alex:/home/node/.openclaw/workspace/alex/knowledge-base
+      - ./knowledge-base/charlie:/home/node/.openclaw/workspace/charlie/knowledge-base
       - ./research:/home/node/.openclaw/workspace/thesis-venture/research
       - ./research:/home/node/.openclaw/workspace/ben/research
       - ./research:/home/node/.openclaw/workspace/sarah/research
       - ./research:/home/node/.openclaw/workspace/alex/research
+      - ./research:/home/node/.openclaw/workspace/charlie/research
       - ./portfolio:/home/node/.openclaw/workspace/thesis-venture/portfolio
       - ./portfolio:/home/node/.openclaw/workspace/ben/portfolio
       - ./portfolio:/home/node/.openclaw/workspace/sarah/portfolio
       - ./portfolio:/home/node/.openclaw/workspace/alex/portfolio
+      - ./portfolio:/home/node/.openclaw/workspace/charlie/portfolio
     environment:
       - GOOGLE_API_KEY=${GEMINI_API_KEY}
       - OPENCLAW_GATEWAY_TOKEN=${GATEWAY_TOKEN}
