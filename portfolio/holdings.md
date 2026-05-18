@@ -1,31 +1,34 @@
-# Portfolio Holdings - ThesisVenture
+# 💼 Portfolio Holdings — ThesisVenture
 
-## Fund Settings
-- Starting Capital: $10,000 USD
-- Min Cash Reserve: 10% ($1,000)
-- Max Positions: 10 stocks
+## 📌 Fund Settings & Constraints
+- **Starting Capital:** $10,000.00 USD (Inception: 2026-05-18)
+- **Min Cash Reserve:** 10% ($1,000.00 USD) — *Strict Munger Liquidity Rule*
+- **Max Asset Allocation:** Up to 20-30% per position (Max 10 active positions)
 
-## Portfolio Summary
-| Metric | Value |
-|--------|-------|
-| Total Capital | $10,000 |
-| Invested | $3,966.38 |
-| Cash Available | $6,000 |
-| Number of Positions | 3 / 10 |
-| Total Portfolio Value | $9,966.38 |
-| Return | -0.34% |
+## 📊 Portfolio Financial Summary
+| Metric | Value | Notes / System Checks |
+| :--- | :--- | :--- |
+| **Total Capital Allocated** | $10,000.00 | Initial fund sizing |
+| **Total Invested (Current)** | $0.00 | No active stock positions yet |
+| **Cash Available** | $10,000.00 | 100% Cash — Ready for deployment |
+| **Number of Positions** | 0 / 10 | Fresh port, 10 slots available |
+| **Total Portfolio Value** | $10,000.00 | Cash + Current Equity Value |
+| **Total Return (%)** | 0.00% | Fund baseline established |
 
-## Active Positions
-| Ticker | Shares | Avg Cost | Current Price | Value | Return |
-|--------|--------|----------|---------------|-------|--------|
-| NVDA   | 8.86   | 225.83   | 225.32        | 1,996.34 | -0.23% |
-| FTNT   | 8.43   | 118.66   | 122.78        | 1,035.04 | +3.47% |
-| GE     | 3.43   | 291.42   | 281.53        | 965.00   | -3.39% |
+## 🚀 Active Positions (Mark-to-Market)
+| Ticker | Shares | Avg Cost ($) | Current Price ($) | Current Value ($) | Return (%) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - | - |
 
-## Transaction History
-| Date | Ticker | Action | Shares | Price | Amount |
-|------|--------|--------|--------|-------|--------|
-| 2026-05-15 | NVDA | BUY | 8.86 | 225.83 | 2,000 |
-| 2026-05-15 | FTNT | BUY | 8.43 | 118.66 | 1,000 |
-| 2026-05-15 | GE | BUY | 3.43 | 291.42 | 1,000 |
-EOF
+## 📜 Ledger Transaction History
+| Transaction Date | Ticker | Action | Shares | Execution Price ($) | Total Net Amount ($) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - | - |
+
+---
+
+## 🛡️ Weekly Swarm Integrity Guard
+*Before the Orchestrator mutates this file, ensure the following parameters are validated:*
+1. **Cash Consistency Check:** Is Cash precisely equal to `Previous Cash - (BUY Amount)` or `Previous Cash + (SELL Amount)`?
+2. **Allocation Cap:** Does any single ticker exceed 30% of the Total Portfolio Value?
+3. **Mistake Avoidance:** Have we cross-referenced `portfolio/mistakes.md` before committing any modifications to this ledger?
