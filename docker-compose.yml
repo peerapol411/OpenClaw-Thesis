@@ -28,6 +28,15 @@ services:
     environment:
       - GOOGLE_API_KEY=${GEMINI_API_KEY}
       - OPENCLAW_GATEWAY_TOKEN=${GATEWAY_TOKEN}
+      - SEARXNG_BASE_URL=http://searxng:8080
+    platform: linux/arm64
+    depends_on:
+      - searxng
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: thesisventure-searxng
+    restart: unless-stopped
     platform: linux/arm64
 
 volumes:
